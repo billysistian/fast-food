@@ -93,6 +93,20 @@ body {
 }
 
 /* Home */
+.label-menu {
+  color: var(--warna_4);
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.img-user {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
 .text-title {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -131,14 +145,11 @@ body {
 
 .form-search {
   position: absolute;
-  top: 11px;
-  left: 51px;
+  padding: 13px 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #7c7c7c;
   font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .box {
@@ -502,5 +513,5 @@ a {
 
 .text-copyright {
   color: #718096;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
