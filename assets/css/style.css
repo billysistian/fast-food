@@ -32,6 +32,7 @@ body {
 .content-get-started {
   max-width: 393px;
   margin: auto;
+  height: 865px;
   background: linear-gradient(
     180deg,
     var(--linier_1) 0%,
