@@ -183,6 +183,10 @@ a {
   font-size: 18px;
 }
 
+.mb-6 {
+  margin-bottom: 60px!important;
+}
+
 .kotak {
   display: block;
   width: 100%;
@@ -240,10 +244,6 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.icon-add {
-  margin-left: 80px;
 }
 
 .icon-add i {
