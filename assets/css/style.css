@@ -99,7 +99,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 500;
-  line-height: normal;
 }
 
 .img-user {
@@ -113,8 +112,11 @@ body {
   font-weight: 500;
   color: var(--warna_4);
   font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
+}
+
+.search {
+  position: relative;
+  width: 100%;
 }
 
 .search-input {
@@ -123,7 +125,7 @@ body {
   background-color: var(--warna_6);
   border-radius: 30px;
   border: none;
-  padding: 30px;
+  padding: 0 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #7c7c7c;
@@ -132,8 +134,8 @@ body {
 
 .icon {
   position: absolute;
-  padding-top: 16px;
-  padding-left: 20px;
+  top: 17px;
+  left: 18px;
 }
 
 .icon i {
